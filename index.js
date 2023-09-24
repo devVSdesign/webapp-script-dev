@@ -23089,7 +23089,7 @@ to {
   ))(zs || {});
   const Tx = () => {
       const e = Kd.create({
-        baseURL: "https://apidev.annotate.site/",
+        baseURL: "https://apidev.annotate.site/api",
         timeout: 5e3,
         headers: { "Content-Type": "application/json" },
       });
