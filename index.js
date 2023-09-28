@@ -714,15 +714,15 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                   ${(d=Tf.find(O=>O.type===r.screenType))==null?void 0:d.icon}
                 </button>
                 <div
-                  class="absolute top-full left-1/2 mb-3 -translate-x-1/2 whitespace-nowrap rounded border bg-white py-[6px] px-4 text-sm hidden group-hover:block p-4 z-[100]  shadow-md transition-all duration-300 min-w-max"
+                  class="absolute top-full left-1/2 mb-3 -translate-x-1/2 whitespace-nowrap rounded border bg-white py-[6px] px-4 text-sm hidden group-hover:block p-4 z-[100] shadow-md transition-all duration-300 min-w-max"
                 >
-                  <div  class="bg-white grid grid-cols-2 gap-2">
-                    <div  class="text-sm font-bold">OS</div>
-                    <div  class="text-left text-sm">${(y=r.metaData)==null?void 0:y.OS}</div>
-                    <div  class="text-sm font-bold">Browser</div>
-                    <div >${(w=r.metaData)==null?void 0:w.Browser}</div>
-                    <div  class="text-sm font-bold">Window size</div>
-                    <div >${(p=r.metaData)==null?void 0:p.Screen}</div>
+                  <div class="bg-white grid grid-cols-2 gap-2">
+                    <div class="text-sm font-bold">OS</div>
+                    <div class="text-left text-sm">${(y=r.metaData)==null?void 0:y.OS}</div>
+                    <div class="text-sm font-bold">Browser</div>
+                    <div>${(w=r.metaData)==null?void 0:w.Browser}</div>
+                    <div class="text-sm font-bold">Window size</div>
+                    <div>${(p=r.metaData)==null?void 0:p.Screen}</div>
                     </div>
                   </div>
               </div>
@@ -901,7 +901,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             `}).join("")}
         </ul>
         <div class="flex flex-col mt-2 w-full">
-          <textarea class="bg-gray-100 outline-none p-2 w-full id="reply" name="reply" rows="5" placeholder="Add a reply"></textarea>
+          <textarea class="bg-gray-100 outline-none p-2 w-full" id="reply" name="reply" rows="5" placeholder="Add a reply"></textarea>
           <div class="flex gap-2 items-center justify-end mt-2 mr-2">
             <button type="button"  id="reply_button" class="bg-blue-500 text-white px-2 h-9 rounded max-w-max"> Reply </button>
             <button type="button"  id="cancel_edit_reply_button" class="text-black px-2 h-9 rounded hidden max-w-max"> Cancel </button>
