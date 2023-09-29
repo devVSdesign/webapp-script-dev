@@ -1,9 +1,9 @@
 [[redirects]]
-from = “/*”
-to = “/index.js
+from = "/*"
+to = "/index.js"
 status = 200
 
 [[headers]]
-for = “/"
+for = "/*"
 [headers.values]
 Access-Control-Allow-Origin = "*"
